@@ -11,7 +11,7 @@ CFLAGS = $(OPT) -fopenmp
 endif
 
 ifeq ($(COMP),intel)
-CC=mpicc
+CC=mpiicc
 CFLAGS = $(OPT) -qopenmp
 endif
 
